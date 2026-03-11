@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "StudentManagementAPI.Controllers.StudentsController",
+    "Method": "GetStudents",
+    "RelativePath": "api/Students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentManagementAPI.Controllers.StudentsController",
+    "Method": "AddStudent",
+    "RelativePath": "api/Students",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "StudentManagementAPI.DTOs.CreateStudentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentManagementAPI.Controllers.StudentsController",
+    "Method": "GetStudent",
+    "RelativePath": "api/Students/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentManagementAPI.Controllers.StudentsController",
+    "Method": "UpdateStudent",
+    "RelativePath": "api/Students/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "StudentManagementAPI.DTOs.StudentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentManagementAPI.Controllers.StudentsController",
+    "Method": "DeleteStudent",
+    "RelativePath": "api/Students/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
